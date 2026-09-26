@@ -1,0 +1,77 @@
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /auth/me
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /auth/me
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /plants
+content_main.js:4917 This page uses the built-in LanguageDetector feature. To learn more and leave feedback, see https://learn.microsoft.com/microsoft-edge/web-platform/languagedetector-api
+MyPlants.vue:41 图片加载成功: /uploads/plants/e3b78c98af3140799eefd9500b3b9ef8.jpg
+MyPlants.vue:41 图片加载成功: /uploads/plants/b8bec3e2b2304f459d6c1fa3ba0a3e7a.jpg
+MyPlants.vue:41 图片加载成功: /uploads/plants/b9f99735917b49e4bb55ea4918c4cd56.jpg
+MyPlants.vue:41 图片加载成功: /uploads/plants/057b4f4b3b0146d7b2773b98c0849466.JPG
+MyPlants.vue:41 图片加载成功: /uploads/plants/d6310b511f2145fc9ecc754fb4aa8921.jpg
+MyPlants.vue:41 图片加载成功: /uploads/plants/328a0009147742a6956720901779e86b.jpg
+notification.ts:48 用户已拒绝通知权限
+(匿名) @ notification.ts:48
+notification.ts:49 如需启用通知，请在浏览器设置中重置权限：
+notification.ts:50 1. 点击地址栏左侧的锁图标或信息图标
+notification.ts:51 2. 找到"通知"选项
+notification.ts:52 3. 将权限改为"允许"
+notification.ts:53 4. 刷新页面
+notification.ts:128 ⚠️ 通知权限未授予: denied
+(匿名) @ notification.ts:128
+notification.ts:129 💡 提示：如需启用通知，请手动重置浏览器权限
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/dashboard/overview
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/dashboard/chart-data
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/users
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/roles
+:8000/api/v1/admin/roles/?page=1&page_size=20:1  Failed to load resource: the server responded with a status of 403 (Forbidden)
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/plants
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/diseases
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/care-tips
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/logs/operations
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/plants
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/diseases
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/care-tips
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/status
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/metrics
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/db-stats
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/status
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/metrics
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/db-stats
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/logs/operations
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/status
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/metrics
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/system/db-stats
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/logs/operations
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/plants
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/diseases
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/knowledge/care-tips
+request.ts:34 [Request] 添加 Authorization header
+request.ts:38 [Request] GET /admin/roles
+:8000/api/v1/admin/roles/?page=1&page_size=20:1  Failed to load resource: the server responded with a status of 403 (Forbidden)

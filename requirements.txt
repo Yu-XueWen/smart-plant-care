@@ -1,0 +1,72 @@
+# 1. Web框架与API (FastAPI生态)
+fastapi==0.115.0                    # 最新稳定版，高性能异步Web框架
+uvicorn[standard]==0.30.0           # ASGI服务器，带标准依赖（websockets等）
+python-multipart==0.0.9             # 文件上传解析
+python-jose[cryptography]==3.3.0    # JWT令牌处理
+passlib[bcrypt]==1.7.4              # 密码哈希（bcrypt算法）
+email-validator==2.2.0              # 邮箱格式验证
+# 2. 数据验证与配置
+pydantic==2.9.2                     # 最新v2版本，数据验证
+pydantic-settings==2.6.0            # 基于pydantic的配置管理
+python-dotenv==1.0.1                # 环境变量读取
+# 3. 数据库 (SQLAlchemy 2.0 + 异步驱动)
+sqlalchemy[asyncio]==2.0.36         # ORM核心，带异步扩展
+aiomysql==0.2.0                     # MySQL异步驱动
+aiosqlite==0.20.0                   # SQLite异步驱动
+alembic==1.14.0                     # 数据库迁移工具
+asyncpg==0.30.0                     # PostgreSQL异步驱动（预留）
+# 4. 缓存与消息队列
+redis==5.2.0                        # Redis客户端
+aioredis==2.0.1                     # 异步Redis（备用）
+celery==5.4.0                       # 分布式任务队列
+flower==2.0.1                       # Celery监控面板
+apscheduler==3.10.4                 # 定时任务调度器
+# 5. 计算机视觉与深度学习 (YOLOv8生态)
+ultralytics==8.3.0                  # YOLOv8最新版（8.3.x为2024年新版）
+torch==2.5.0                        # PyTorch 2.5 (最新稳定版)
+torchvision==0.20.0                 # PyTorch视觉库
+torchaudio==2.5.0                   # PyTorch音频（YOLO依赖）
+onnx==1.17.0                        # ONNX模型格式
+onnxruntime-gpu==1.20.0             # ONNX GPU推理引擎
+onnxruntime==1.20.0                 # ONNX CPU推理引擎（备用）
+# 6. 图像处理
+opencv-python==4.10.0.84            # OpenCV最新版
+opencv-python-headless==4.10.0.84   # 无GUI版本（服务器部署用）
+pillow==11.0.0                      # PIL图像处理最新版
+albumentations==1.4.21              # 高级数据增强
+imgaug==0.4.0                       # 图像增强（备用）
+# 7. 科学计算与数据处理
+numpy==1.26.4                       # 数值计算（1.26为稳定版，2.x有兼容问题）
+pandas==2.2.3                       # 数据处理最新版
+scipy==1.14.1                       # 科学计算
+scikit-learn==1.5.2                 # 机器学习工具
+scikit-image==0.24.0                # 图像处理算法
+# 8. 图数据库 (Neo4j知识图谱)
+neo4j==5.26.0                       # Neo4j官方驱动
+py2neo==2021.2.4                    # Neo4j Pythonic接口（备用）
+neomodel==5.4.0                     # Neo4j ODM（对象文档映射）
+# 9. HTTP客户端与API工具
+psutil==6.1.0                       # 系统性能监控（CPU/内存/磁盘）
+httpx==0.27.2                       # 异步HTTP客户端（取代aiohttp）
+requests==2.32.3                    # 同步HTTP客户端
+aiohttp==3.11.0                     # 异步HTTP（备用）
+websockets==14.0                    # WebSocket支持
+# 10. 工具与工具函数
+tqdm==4.67.0                        # 进度条
+rich==13.9.0                        # 美化终端输出
+typer==0.13.0                       # 命令行接口构建
+click==8.1.7                        # CLI框架（Celery依赖）
+python-dateutil==2.9.0              # 日期处理
+pytz==2024.2                        # 时区处理
+orjson==3.10.10                     # 高性能JSON处理（FastAPI可选加速）
+ujson==5.10.0                       # 超快JSON解析（备用）
+# 11. 文件与存储
+aiofiles==24.1.0                    # 异步文件操作
+python-magic==0.4.27                # 文件类型检测
+boto3==1.35.0                       # AWS S3接口（对象存储预留）
+minio==7.2.0                        # MinIO客户端（自建对象存储）
+# 12. 日志与监控
+loguru==0.7.2                       # 现代化日志
+sentry-sdk==2.18.0                  # 错误监控（Sentry）
+prometheus-client==0.21.0           # Prometheus监控指标
+opentelemetry-api==1.28.0           # 链路追踪（OpenTelemetry）

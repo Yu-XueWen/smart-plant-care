@@ -1,0 +1,59 @@
+# 数据集和模型权重
+ai_models/datasets/
+ai_models/weights/
+ai_models/processed/
+ai_models/data/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mlmodel
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# 环境变量
+.env
+.env.local
+
+# 上传文件和日志
+backend/uploads/
+backend/logs/
+*.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+node_modules/
